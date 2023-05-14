@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+#root {
+  font-size: 62.5%;
+  --bg: #1a1c22;
+  --bg-light: #3d3a50;
+  --purple: #580ef6;
+  --white: #f7f7f7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(26,28,34);
+  background: radial-gradient(circle, rgba(26,28,34,1) 1%, rgba(10,11,13,1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 90%;
+  height: 90%;    
+  background-color: var(--bg);
+  border-radius: 1rem;
+  border: 1px solid var(--purple);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.col-1 {
+  flex: 1;
+}
+
+.header {
+  flex: 1;
+  display: flex;
+  align-items: center;
+
+  h1 {
+    padding: 1rem;
+    font-size: 2rem;
+    color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-family: 'roboto', serif;
+    font-weight: 300;
+  }
+}
+
+.row-1 {
+  flex: 6;
+
+  .calendar-col {
+    border-right: 1px solid var(--purple);
+    height: 100%;
+  }
+
+  .todo-col {
+    border-right: 1px solid var(--purple);
+    height: 100%;
+  }
+
+  .socials-col {
+    border-right: 1px solid var(--purple);
+    height: 100%;
+  }
+
+  .calendar-col {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+.row-2 {
+  border-top: 1px solid var(--purple);
+  flex: 3;
+
+
+}
