@@ -1,5 +1,6 @@
 import './App.scss'
 import Calendar from './components/Calendar/Calendar'
+import TodoApp from './components/Todo/Todo'
 // import Calendar from './components/Calendar/Calendar'
 
 function App() {
@@ -15,7 +16,9 @@ function App() {
             <div className="calendar-col col-1">
               <Calendar />
             </div>
-            <div className="todo-col col-1"></div>
+            <div className="todo-col col-1">
+              <TodoApp />
+            </div>
             <div className="socials-col col-1"></div>
             <div className="historic-col col-1"></div>
           </div>

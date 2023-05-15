@@ -7,7 +7,6 @@
     align-items: center;
     background-color: var(--bg-light);
     border-radius: 1rem;
-    border: 1px solid var(--purple);
 
     .calendar-btn {
         width: 100%;
@@ -53,12 +52,13 @@
         td {
             font-size: .8rem;
             
+            
           &.active {
             background-color: var(--purple);
             border-radius: 50%;
             color: #fff;
-            height: .7rem;
-            width: .7rem;
+            height: .5rem;
+            width: .5rem;
             font-size: .9rem;
             font-weight: 600;
           }
